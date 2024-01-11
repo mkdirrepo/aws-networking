@@ -1,6 +1,6 @@
 module "networking" {
   source  = "app.terraform.io/ryanff/networking/aws"
-  version = "1.0.2"
+  version = "1.0.3"
   # insert required variables here
     access_ip = var.access_ip
     db_subnet_group_name = "thurstest"
