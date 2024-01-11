@@ -1,6 +1,6 @@
 module "networking" {
   source  = "app.terraform.io/ryanff/networking/aws"
-  version = "1.0.1"
+  version = "1.0.2"
   # insert required variables here
     access_ip = var.access_ip
     db_subnet_group_name = "thurstest"
@@ -11,7 +11,7 @@ module "networking" {
     vpc_cidr = "10.16.0.0/20"
     public_cidrs = ["10.16.1.0/24"]
     private_cidrs = ["10.16.2.0/24", "10.16.4.0/24"]
-    rds_cidr_block = "10.16.6.0/24"
+    rds_cidr_block  = "10.16.6.0/24"
     
 
 }
